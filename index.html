@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#073c3c">
+<meta name="description" content="Explore stock market fundamentals, chart concepts and risk awareness with CA Nitin Murarka.">
+<title>CA Nitin Murarka | Market Learning</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#edf3f2;
+  color:#123b3c;
+  font-family:Arial,sans-serif;
+  min-height:100svh;
+  padding:20px;
+  display:grid;
+  place-items:center;
+}
+.page{
+  width:100%;
+  max-width:460px;
+  text-align:center;
+}
+header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:14px;
+  padding:20px 10px;
+}
+.logo{
+  position:relative;
+  width:88px;
+  height:88px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  overflow:hidden;
+  background:#073c3c;
+  color:white;
+  font-size:28px;
+  font-weight:800;
+  border:5px solid white;
+  box-shadow:0 8px 25px #073c3c18;
+}
+.logo img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  padding:5px;
+  background:#073c3c;
+  border-radius:50%;
+}
+.logo img[hidden]{display:none}
+.name{
+  margin:0;
+  font-size:20px;
+  letter-spacing:.5px;
+}
+.subtitle{
+  margin:7px 0 0;
+  color:#637d7d;
+  font-size:12px;
+  letter-spacing:1.5px;
+}
+main{padding:19px 0 0}
+.label{
+  font-size:12px;
+  color:#d45e25;
+  font-weight:700;
+  margin:0 0 16px;
+}
+h1{
+  font-size:clamp(35px,9.5vw,45px);
+  line-height:1.1;
+  letter-spacing:-1.5px;
+  margin:0 0 18px;
+}
+h1 span{color:#d45e25}
+.intro{
+  font-size:16px;
+  line-height:1.65;
+  color:#587170;
+  margin:0 auto 25px;
+  max-width:390px;
+}
+.cta{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  width:100%;
+  min-height:60px;
+  padding:17px 10px;
+  border-radius:14px;
+  background:#073c3c;
+  color:white;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:800;
+  line-height:1.4;
+  box-shadow:0 8px 22px #073c3c20;
+}
+.cta:hover{background:#125654}
+.cta:focus-visible{
+  outline:3px solid #d45e25;
+  outline-offset:4px;
+}
+.cta svg{
+  width:21px;
+  height:21px;
+  flex-shrink:0;
+}
+.note{
+  font-size:12px;
+  color:#647b79;
+  margin:13px 0 25px;
+}
+.focus{
+  padding:18px 0;
+  border-top:1px solid #073c3c18;
+  border-bottom:1px solid #073c3c18;
+}
+.focus p{
+  margin:0 0 14px;
+  font-size:12px;
+  letter-spacing:1px;
+  color:#647b79;
+}
+.focus ul{
+  list-style:none;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  padding:0;
+  margin:0;
+  gap:10px;
+  font-size:13px;
+  line-height:1.5;
+}
+.focus li{padding:4px 8px}
+.focus li+li{border-left:1px solid #073c3c18}
+footer{
+  padding:20px 6px 0;
+  font-size:12px;
+  line-height:1.6;
+  color:#647b79;
+}
+footer p{margin:0}
+@media(max-width:360px){
+  body{padding:14px}
+  .cta{font-size:12px}
+  .focus ul{
+    font-size:12px;
+    gap:4px;
+  }
+  .focus li{padding:4px}
+}
+@media(max-height:740px){
+  header{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .logo{
+    width:74px;
+    height:74px;
+  }
+  main{padding-top:14px}
+  .intro{margin-bottom:20px}
+  .note{margin-bottom:20px}
+}
+</style>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){
+  if(f.fbq)return;
+  n=f.fbq=function(){
+    n.callMethod
+      ? n.callMethod.apply(n,arguments)
+      : n.queue.push(arguments)
+  };
+  if(!f._fbq)f._fbq=n;
+  n.push=n;
+  n.loaded=!0;
+  n.version='2.0';
+  n.queue=[];
+  t=b.createElement(e);
+  t.async=!0;
+  t.src=v;
+  s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s);
+}(
+  window,
+  document,
+  'script',
+  'https://connect.facebook.net/en_US/fbevents.js'
+);
+
+fbq('init','1674156970791468');
+fbq('trackSingle','1674156970791468','PageView');
+</script>
+<!-- End Meta Pixel Code -->
+</head>
+
+<body>
+<noscript>
+  <img
+    height="1"
+    width="1"
+    style="display:none"
+    alt=""
+    src="https://www.facebook.com/tr?id=1674156970791468&amp;ev=PageView&amp;noscript=1"
+  >
+</noscript>
+
+<div class="page">
+  <header>
+    <div class="logo">
+      <span id="logo-fallback">NM</span>
+
+      <!-- Paste your logo image URL inside src="" -->
+      <img
+        id="https://github.com/gt260856-netizen/CA-Nitin/releases/download/Nitin/ca.jpg"
+        src=""
+        alt="CA Nitin Murarka logo"
+        hidden
+      >
+    </div>
+
+    <div>
+      <h2 class="name">CA NITIN MURARKA</h2>
+      <p class="subtitle">STOCK MARKET LEARNING</p>
+    </div>
+  </header>
+
+  <main>
+    <p class="label">Knowledge is a good place to start.</p>
+
+    <h1>
+      Build your basics.<br>
+      <span>Find your perspective.</span>
+    </h1>
+
+    <p class="intro">
+      Explore market fundamentals, chart concepts and risk
+      awareness in a free Telegram learning space.
+    </p>
+
+    <a
+      id="telegram-cta"
+      class="cta"
+      href="https://t.me/+SPc1CYKGcFswYjQ1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+      >
+        <path d="M21.4 3.6 18.2 20c-.2 1-1 1.2-1.8.7l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.3L5.6 13.3.7 11.8c-1-.3-1-1 .2-1.4L20 3c.9-.3 1.6.2 1.4.6Z"/>
+      </svg>
+
+      JOIN FREE TELEGRAM CHANNEL
+    </a>
+
+    <p class="note">Free to join · Open directly in Telegram</p>
+
+    <section class="focus" aria-label="Learning topics">
+      <p>MAKE ROOM FOR UNDERSTANDING</p>
+      <ul>
+        <li>Market<br>fundamentals</li>
+        <li>Chart<br>concepts</li>
+        <li>Risk<br>awareness</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Educational content only. No investment advice,
+      buy/sell recommendations or assured returns.
+      Stock market investments involve risk.
+    </p>
+  </footer>
+</div>
+
+<script>
+const logo = document.getElementById('logo-image');
+const fallback = document.getElementById('logo-fallback');
+
+function showLogo(){
+  logo.hidden = false;
+  fallback.hidden = true;
+}
+
+function hideLogo(){
+  logo.hidden = true;
+  fallback.hidden = false;
+}
+
+logo.addEventListener('load', showLogo);
+logo.addEventListener('error', hideLogo);
+
+if(
+  logo.getAttribute('src') &&
+  logo.complete &&
+  logo.naturalWidth
+){
+  showLogo();
+}
+
+document
+  .getElementById('telegram-cta')
+  .addEventListener('click', function(){
+    // Records CTA clicks, not confirmed Telegram membership.
+    if(typeof window.fbq === 'function'){
+      fbq('trackSingle','1674156970791468','Subscribe');
+    }
+  });
+</script>
+
+</body>
+</html>
